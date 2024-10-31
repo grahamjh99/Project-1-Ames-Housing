@@ -26,9 +26,8 @@ Before you begin working on this project, please do the following:
 
 1. Sign up for an account on [Kaggle](https://www.kaggle.com/)
 2. **IMPORTANT**: Click this link ➡️ [Regression Challenge Sign Up](www.cutt.ly/kaggle_1015) ⬅️ to **join** the competition (otherwise you will not be able to make submissions!)
-3. Review the material on the [DSB-1015 Regression Challenge(https://www.cutt.ly/kaggle_1015)
+3. Review the material on the [DSB-1015 Regression Challenge](https://www.cutt.ly/kaggle_1015)
 4. Review the [data description](https://www.kaggle.com/competitions/dsb-1015-ames-housing-challenge/data).
-
 ## The Modeling Process
 
 1. The train dataset has all of the columns that you will need to generate and refine your models. The test dataset has all of those columns except for the target that you are trying to predict in your Regression model.
