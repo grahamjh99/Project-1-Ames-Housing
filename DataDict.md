@@ -9,7 +9,7 @@ There are three files:
 Codebook / Data Dictionary:
 
     SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict for this challenge.
-    MSSubClass: The building class
+    MSSubClass: The building class ---> changed to get dummy columns for each
         20 1-STORY 1946 & NEWER ALL STYLES
         30 1-STORY 1945 & OLDER
         40 1-STORY W/FINISHED ATTIC ALL AGES
@@ -213,13 +213,13 @@ Codebook / Data Dictionary:
         None None
         Stone Stone
     MasVnrArea: Masonry veneer area in square feet
-    ExterQual: Exterior material quality
+    ExterQual: Exterior material quality ----> changed to 1-5 scale
         Ex Excellent
         Gd Good
         TA Average/Typical
         Fa Fair
         Po Poor
-    ExterCond: Present condition of the material on the exterior
+    ExterCond: Present condition of the material on the exterior ---> changed to 1-5 scale
         Ex Excellent
         Gd Good
         TA Average/Typical
@@ -232,27 +232,27 @@ Codebook / Data Dictionary:
         Slab Slab
         Stone Stone
         Wood Wood
-    BsmtQual: Height of the basement
+    BsmtQual: Height of the basement----> changed to a 0-5 scale
         Ex Excellent (100+ inches)
         Gd Good (90-99 inches)
         TA Typical (80-89 inches)
         Fa Fair (70-79 inches)
         Po Poor (<70 inches)
         NA No Basement
-    BsmtCond: General condition of the basement
+    BsmtCond: General condition of the basement ---> changed to a 0-5 scale
         Ex Excellent
         Gd Good
         TA Typical - slight dampness allowed
         Fa Fair - dampness or some cracking or settling
         Po Poor - Severe cracking, settling, or wetness
         NA No Basement
-    BsmtExposure: Walkout or garden level basement walls
+    BsmtExposure: Walkout or garden level basement walls ---> Changed to a 0-4
         Gd Good Exposure
         Av Average Exposure (split levels or foyers typically score average or above)
         Mn Mimimum Exposure
         No No Exposure
         NA No Basement
-    BsmtFinType1: Quality of basement finished area
+    BsmtFinType1: Quality of basement finished area 
         GLQ Good Living Quarters
         ALQ Average Living Quarters
         BLQ Below Average Living Quarters
@@ -261,7 +261,7 @@ Codebook / Data Dictionary:
         Unf Unfinshed
         NA No Basement
     BsmtFinSF1: Type 1 finished square feet
-    BsmtFinType2: Quality of second finished area (if present)
+    BsmtFinType2: Quality of second finished area (if present) 
         GLQ Good Living Quarters
         ALQ Average Living Quarters
         BLQ Below Average Living Quarters
@@ -279,7 +279,7 @@ Codebook / Data Dictionary:
         Grav Gravity furnace
         OthW Hot water or steam heat other than gas
         Wall Wall furnace
-    HeatingQC: Heating quality and condition
+    HeatingQC: Heating quality and condition ---> Changed to 1-5 scale
         Ex Excellent
         Gd Good
         TA Average/Typical
@@ -304,7 +304,7 @@ Codebook / Data Dictionary:
     HalfBath: Half baths above grade
     Bedroom: Number of bedrooms above basement level
     Kitchen: Number of kitchens
-    KitchenQual: Kitchen quality
+    KitchenQual: Kitchen quality ---> Changed to 1-5 scale
         Ex Excellent
         Gd Good
         TA Typical/Average
@@ -321,7 +321,7 @@ Codebook / Data Dictionary:
         Sev Severely Damaged
         Sal Salvage only
     Fireplaces: Number of fireplaces
-    FireplaceQu: Fireplace quality
+    FireplaceQu: Fireplace quality ---> changed to 0-5 scale
         Ex Excellent - Exceptional Masonry Fireplace
         Gd Good - Masonry Fireplace in main level
         TA Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
@@ -344,14 +344,14 @@ Codebook / Data Dictionary:
         NA No Garage
     GarageCars: Size of garage in car capacity
     GarageArea: Size of garage in square feet
-    GarageQual: Garage quality
+    GarageQual: Garage quality ---> changed to 0-5 scale
         Ex Excellent
         Gd Good
         TA Typical/Average
         Fa Fair
         Po Poor
         NA No Garage
-    GarageCond: Garage condition
+    GarageCond: Garage condition ---> changed to 0-5 scale
         Ex Excellent
         Gd Good
         TA Typical/Average
@@ -368,7 +368,7 @@ Codebook / Data Dictionary:
     3SsnPorch: Three season porch area in square feet
     ScreenPorch: Screen porch area in square feet
     PoolArea: Pool area in square feet
-    PoolQC: Pool quality
+    PoolQC: Pool quality ---> changed to 0-4 scale
         Ex Excellent
         Gd Good
         TA Average/Typical
